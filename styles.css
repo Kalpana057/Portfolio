@@ -156,21 +156,21 @@ body {
     color: white;
   }
   
-  .bio-text p:first-of-type {
-    font-size: 1.2rem;
-    margin-bottom: 15px;
-  }
-  
   .bio:hover .profile-pic {
     transform: scale(1.05);
     transition: transform 0.3s ease;
   }
-  
-  .bio-text p:last-of-type {
-    font-weight: bold;
-    font-size: 1.2rem; 
-    color: yellow;
-  }
+
+.bio-text p:first-of-type {
+  margin-bottom: 15px;
+}
+
+.bio-text p:last-of-type {
+  font-weight: bold;
+  font-size: 1.1rem; 
+  color: yellow;
+}
+
   
   /* Education Section */
   #education {
